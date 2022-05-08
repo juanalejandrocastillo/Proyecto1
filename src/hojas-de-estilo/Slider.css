@@ -1,3 +1,11 @@
+.links{
+text-decoration: none;
+color: #F5F5F5;
+}
+.links:hover{
+    cursor: pointer;
+}
+
 .carousel-container {
     display: flex;
     vertical-align: center;
@@ -19,7 +27,6 @@
     border-radius: 40px;
     overflow: hidden;
     position: relative;
-    cursor: pointer;
 }
 
 .slide-container > img {
